@@ -20,6 +20,7 @@ Repositorio para el control de versiones de los ítems de configuración de la m
 
     ICS_Grupo11_2025_4K2/
     ├── Exámenes/
+    │   └── Resúmenes
     │   └── Templates
     ├── Recursos/
     │   ├── Bibliografía
@@ -31,12 +32,13 @@ Repositorio para el control de versiones de los ítems de configuración de la m
 ## 📑 Listado de Ítems de Configuración
 | Item | Tipo | Regla de nombrado | Ubicación | Observaciones |
 |------|------|------------------|-----------|---------------|
+| Archivo de un resúmen | Teórico  | Resumen_<\<tema>>.pdf    | ICS_Grupo11_2025_4K2/Exámenes/Resúmenes/ | <\<tema>> tema del resumen. |
 | Template para historias de usuario y MVP | Práctico | Template_US_MVP.docx | ICS_Grupo11_2025_4K2/Exámenes/Templates/ | |
 | Template para casos de prueba | Práctico | Template_Caso_De_Prueba.<\<ext>> | ICS_Grupo11_2025_4K2/Exámenes/Templates/ | Extensiones permitidas: docx, xlsx |
 | Documento de apoyo para parciales | Teórico | Apoyo_parciales.pdf | ICS_Grupo11_2025_4K2/Exámenes/ | |
 | Libro de bibliografía | Teórico | <<nombre_recurso>>.pdf | ICS_Grupo11_2025_4K2/Recursos/Bibliografía/ | <<nombre_recurso>> Título del libro, paper o material bibliográfico de la asignatura. |
 | Presentación de tema | Teórico | <\<nro>>_<\<tema>>.pdf | ICS_Grupo11_2025_4K2/Recursos/Presentaciones/ | <\<nro>> Número en formato XX.<br><\<tema>> contenido a tratarse en el documento. |
-| Planificación de la asignatura | Asignatura | ICS_4K2_Planificación.docx | ICS_Grupo11_2025_4K2/Recursos/ | |
+| Planificación de la asignatura | Asignatura | ICS_4K2_Planificación.pdf | ICS_Grupo11_2025_4K2/Recursos/ | |
 | Cronograma de la asignatura | Asignatura | ICS_4K2_Cronograma.xlsx | ICS_Grupo11_2025_4K2/Recursos/ | |
 | Link de clases grabadas 2021 | Asignatura | Link_clases_2021.xlsx | ICS_Grupo11_2025_4K2/Recursos/ | |
 | Archivo de un Trabajo Práctico | Práctico | <\<nombre_archivo>>_G11.<\<ext>> | ICS_Grupo11_2025_4K2/TPs/TP_<\<nro>>/ | Dentro de cada carpeta de TP, archivos relevantes al contenido. Ejemplo: listado_casos_de_uso_G11.docx |
