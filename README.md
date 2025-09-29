@@ -60,5 +60,4 @@ Repositorio para el control de versiones de los ítems de configuración de la m
 
 ## 📌 Criterio de Línea Base
 
-Se establecerá una nueva línea base cada vez que se lleve a cabo un
-**examen parcial** de la asignatura.
+Se establecerá una nueva línea base cada vez que se lleve a cabo un **examen parcial** de la asignatura. La justificación de este criterio es que, al finalizar cada instancia de evaluación parcial, se considera que el equipo ya ha adquirido y consolidado los conocimientos necesarios para la etapa correspondiente. Esto brinda la seguridad de que los entregables hasta ese momento cumplen con los objetivos de aprendizaje y con el nivel de calidad esperado. De esta forma, la línea base marca un punto estable y confiable a partir del cual se puede continuar con la evolución del repositorio, manteniendo el control de cambios y facilitando la trazabilidad.
