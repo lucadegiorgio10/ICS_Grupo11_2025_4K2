@@ -1,0 +1,24 @@
+.header {
+  height: 60px;
+  padding: 0 var(--mantine-spacing-md);
+  background-color: var(--mantine-color-brand-5);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+  color: var(--mantine-color-white);
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}

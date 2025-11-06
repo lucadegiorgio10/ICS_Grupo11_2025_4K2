@@ -1,0 +1,26 @@
+.heroImage {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  object-position: top;
+}
+
+.heroSection {
+  text-align: center;
+}
+
+.featureCard {
+  height: 100%;
+  padding: var(--mantine-spacing-lg);
+  transition: transform 0.2s;
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+}
+
+@media (min-width: 48em) {
+  .heroSection {
+    text-align: left;
+  }
+}

@@ -1,0 +1,38 @@
+<div style="font-family: Montserrat, Arial, sans-serif; color: #134611; max-width: 600px; margin: 0 auto;">
+    <h1 style="color: #3E8914; text-align: center;">¡Tu reserva está confirmada!</h1>
+    <p style="font-size: 16px;">Hola {{email}},</p>
+    <p style="font-size: 16px;">Tu reserva de entradas para EcoHarmony Park ha sido confirmada. Aquí están los detalles:</p>
+    
+    <h2 style="color: #3DA35D;">Detalles de la reserva</h2>
+    <ul style="font-size: 16px; list-style: none; padding: 0;">
+        <li><strong>Código de reserva:</strong> {{reservationCode}}</li>
+        <li><strong>Fecha de visita:</strong> {{visitDate}}</li>
+        <li><strong>Cantidad de entradas:</strong> {{ticketCount}}</li>
+        <li><strong>Tipo de entrada:</strong> {{ticketType}}</li>
+        <li><strong>Total a pagar:</strong> ${{totalAmount}}</li>
+    </ul>
+
+    <div style="background-color: #E8FCCF; border: 1px solid #96E072; padding: 15px; border-radius: 4px; margin: 20px 0;">
+        <p style="margin: 0; color: #134611;">
+            <strong>Importante:</strong> Presenta este código en boletería para realizar el pago:<br>
+            <span style="font-size: 24px; display: block; text-align: center; margin-top: 10px; font-weight: bold;">{{reservationCode}}</span>
+        </p>
+    </div>
+
+    <div>
+        <p>Tu código QR de reserva:</p>
+        <div style="text-align: center;">
+            <img src="{{qrCodeImage}}" alt="Código QR de reserva" style="max-width: 300px;">
+        </div>
+    </div>
+
+    <p style="font-size: 16px;">Recuerda:</p>
+    <ul style="font-size: 16px;">
+        <li>El pago debe realizarse en efectivo</li>
+        <li>Presenta este email en boletería</li>
+        <li>Llega con 30 minutos de anticipación para realizar el pago</li>
+    </ul>
+
+    <p style="font-size: 16px; margin-top: 30px;">Te esperamos en EcoHarmony Park para vivir una experiencia única.</p>
+    <p style="color: #3E8914; font-size: 14px;">Saludos,<br>El equipo de EcoHarmony Park</p>
+</div>
